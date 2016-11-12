@@ -2,9 +2,336 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Primera App en Angular 1.5</title>
+	<title>Elemental Studio - Diseño Gráfico & Web</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="https://use.fontawesome.com/fcdbeac92b.js"></script>
 </head>
 <body>
-	<h1>Este es un ejemplo para Github Pages</h1>
+	<header>
+		<!-- Navbar Main Menu -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="img-responsive"></a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#services">SERVICIOS</a></li>
+			        <li><a href="#about">NOSOTROS</a></li>
+			        <li><a href="#portfolio">PORTAFOLIO</a></li>
+			        <li><a href="#our-team">CLIENTES</a></li>
+			        <li><a href="#contact-form">CONTACTO</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+		 	</div><!-- /.container-fluid -->
+		</nav>
+		
+		<!-- Jumbotron Home -->
+		<div id="Home" class="jumbotron">
+			<div class="flex-box">
+				<img src="img/slider-1.png" class="img-responsive" alt="imagen-home">
+		  		<h1 class="bold">DISEÑO UX / UI<br>
+		  		<h1 class="bold">APP MOVIL / WEB</h1>
+		  		<a href="#services"><i class="fa fa-arrow-circle-o-down fa-3x" aria-hidden="true"></i></a>
+	  		</div>
+		</div>
+	</header>
+
+<main>
+		<!-- Services Section -->
+		<div id="services" class="container text-center">
+			<h2 class="bold">LO QUE <span class="orange">HACEMOS</span></h2>
+		</div>
+		<div class="container-fluid bg-orange">	
+			<div id="portfolio" class="container text-center">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<img src="img/grafica.png" alt="e-commerce">
+						<h3 class="bold">Gráfica</h3>
+						<p>Branding</p>
+						<p>Corporativo</p>
+						<p>Ilustración</p>
+						<p>Editorial</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<img src="img/web.png" alt="responsive">
+						<h3 class="bold">Webs & Apps</h3>
+						<p>Diseño UI</p>
+						<p>Apps Móviles & Web</p>
+						<p>Sistemas de Gestión</p>
+						<p>Landing Pages</p>
+					</div>
+
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<img src="img/impresion.png" alt="security">
+						<h3 class="bold">Impresión</h3>
+						<p>Papelería</p>
+						<p>Packaging</p>
+						<p>Terminaciones</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Parallax Effect -->
+		<div class="container-fluid bg-image">
+		</div>
+
+		<!-- About Section -->
+		<div class="container-fluid">
+			<div id="about" class="container text-center">
+				<h2 class="bold margin-top">ABOUT</h2>
+				<h3 class="lead">Lorem ipsum dolor sit amet consectetur.</h3>
+				<div class="row">
+					<div class="col-xs-8 col-sm-5 col-md-5 col-lg-5">
+						<h4 class="text-right">2009-2011</h4>
+						<h4 class="text-right">Our Humble Beginnings</h4>
+						<p class="text-right grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+					<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+						<img src="img/circle-test.jpg" alt="" class="img-responsive img-circle">
+					</div>
+					<div class="col-sm-5 col-md-5 col-lg-5">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-5 col-md-5 col-lg-5">
+					</div>
+					<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+						<img src="img/circle-test.jpg" alt="" class="img-responsive img-circle">
+					</div>
+					<div class="col-xs-8 col-sm-5 col-md-5 col-lg-5">
+						<h4 class="text-left">MARCH 2011</h4>
+						<h4 class="text-left">An Agency is Born</h4>
+						<p class="text-left grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</div>
+				
+				<div class="row margin-buttom">
+					<div class="col-xs-8 col-sm-5 col-md-5 col-lg-5">
+						<h4 class="text-right">DECEMBER 2012</h4>
+						<h4 class="text-right">Transition to Full Service</h4>
+						<p class="text-right grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+					<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+						<img src="img/circle-test.jpg" alt="" class="img-responsive img-circle">
+					</div>
+					<div class="col-sm-5 col-md-5 col-lg-5">
+					</div>
+				</div>
+
+				<div class="row margin-buttom">
+					<div class="col-sm-5 col-md-5 col-lg-5">
+					</div>
+					<div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+						<img src="img/circle-test.jpg" alt="" class="img-responsive img-circle">
+					</div>
+					<div class="col-xs-8 col-sm-5 col-md-5 col-lg-5">
+						<h4 class="text-left">JULY 2014</h4>
+						<h4 class="text-left">Phase Two Expansion</h4>
+						<p class="text-left grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Portfolio Section -->
+		<div class="container-fluid bg-grey">
+			<div id="portfolio" class="container text-center">
+				<h2 class=" margin-top bold">PORTFOLIO</h2>
+				<h3 class="lead">Lorem ipsum dolor sit amet consectetur.</h3>
+
+				<div class="row margin-buttom">
+					<div class="col-sm-6 col-md-4 col-lg-4">
+					    <div class="thumbnail">
+					    <a href=""><img src="img/portfolio1.jpg" alt="graphic-design"></a>
+					    	<div class="caption">
+					        <h4 class="bold">Round Icons</h4>
+					        <p class="lead">Graphic Design</p>
+					        </div>
+					    </div>
+				  	</div>
+				  	<div class="col-sm-6 col-md-4 col-lg-4">
+					    <div class="thumbnail">
+					    <a href=""><img src="img/portfolio2.jpg" alt="graphic-design"></a>
+					    	<div class="caption">
+					        <h4 class="bold">Startup Framework</h4>
+					        <p class="lead">Graphic Design</p>
+					        </div>
+					    </div>
+				  	</div>
+				  	<div class="col-sm-6 col-md-4 col-lg-4">
+					    <div class="thumbnail">
+					    <a href=""><img src="img/portfolio3.jpg" alt="graphic-design"></a>
+					    	<div class="caption">
+					        <h4 class="bold">Treehouse</h4>
+					        <p class="lead">Graphic Design</p>
+					        </div>
+					    </div>
+				  	</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+					    <div class="thumbnail">
+					    <a href=""><img src="img/portfolio4.jpg" alt="graphic-design"></a>
+					    	<div class="caption">
+					        <h4 class="bold">Golden</h4>
+					        <p class="lead">Graphic Design</p>
+					        </div>
+					    </div>
+				  	</div>
+				  	<div class="col-sm-6 col-md-4 col-lg-4">
+					    <div class="thumbnail">
+					    <a href=""><img src="img/portfolio5.jpg" alt="graphic-design"></a>
+					    	<div class="caption">
+					        <h4 class="bold">Escape</h4>
+					        <p class="lead">Graphic Design</p>
+					        </div>
+					    </div>
+				  	</div>
+				  	<div class="col-sm-6 col-md-4 col-lg-4">
+					    <div class="thumbnail">
+					    <a href=""><img src="img/portfolio6.jpg" alt="graphic-design"></a>
+					    	<div class="caption">
+					        <h4 class="bold">Dreams</h4>
+					        <p class="lead">Graphic Design</p>
+					        </div>
+					    </div>
+				  	</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Our Team Section -->
+		<div class="container-fluid bg-grey">
+			<div id="our-team" class="container text-center">
+				<h2 class="bold margin-top">OUR AMAZING TEAM</h2>
+				<h3 class="lead">Lorem ipsum dolor sit amet consectetur.</h3>
+				
+				<div class="content">
+					<div class="row"></div>
+						<div class="col-lg-4 col-md-4 col-sm-4 margin-buttom-sm">
+							<img src="img/team02.jpg" alt="" class="img-responsive img-circle img-circle-team">
+							<h4 class="bold">Kay Garland</h4>
+							<p class="grey">Lead Designer</p>
+							<div>
+								<a href=""><i class="fa fa-twitter-square fa-3x black social-padding-right" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-facebook-square fa-3x black social-padding-right" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-linkedin-square fa-3x black" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 margin-buttom-sm">
+							<img src="img/team01.jpg" alt="" class="img-responsive img-circle img-circle-team">
+							<h4 class="bold">Larry Parker</h4>
+							<p class="grey">Lead Designer</p>
+							<div>
+								<a href=""><i class="fa fa-twitter-square fa-3x black social-padding-right" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-facebook-square fa-3x black social-padding-right" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-linkedin-square fa-3x black" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<img src="img/team03.jpg" alt="" class="img-responsive img-circle img-circle-team">
+							<h4 class="bold">Diana Pertersen</h4>
+							<p class="grey">Lead Designer</p>
+							<div class="margin-buttom">
+								<a href=""><i class="fa fa-twitter-square fa-3x black social-padding-right" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-facebook-square fa-3x black social-padding-right" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-linkedin-square fa-3x black" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="row margin-buttom">
+						<div class="col-lg-2"></div>
+						<div class="col-lg-8">
+							<p class="grey bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>	
+						</div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Partners -->
+		<div class="container text-center">
+			<div id="partners" class="row margin-top margin-buttom">
+				<div class="col-sm-3 col-md-3 col-lg-3 margin-buttom-sm"><img src="img/envato.png" alt="" class="greyscale"></div>
+				<div class="col-sm-3 col-md-3 col-lg-3 margin-buttom-sm"><img src="img/designmodo.png" alt="" class="greyscale"></div>
+				<div class="col-sm-3 col-md-3 col-lg-3 margin-buttom-sm"><img src="img/themeforest.png" alt="" class="greyscale"></div>
+				<div class="col-sm-3 col-md-3 col-lg-3"><img src="img/CreativeMarket.png" alt="" class="greyscale"></div>
+			</div>
+		</div>
+
+		<!-- Contact Form Section -->
+		<div class="container-fluid bg-black">
+			<div id="contact-form" class="container text-center">
+				<h2 class="white bold margin-top">CONTACT US</h2>
+				<h3 class="lead">Lorem ipsum dolor sit amet consectetur.</h3>
+				<div class="row margin-top">
+					<form>
+						<div class="col-md-6 col-lg-6">
+							<div class="form-group">
+						    	<input type="text" class="form-control grey" id="name" placeholder="YOUR NAME*" required="true">
+						  	</div>
+							<div class="form-group">
+						    	<input type="email" class="form-control grey" id="email" placeholder="YOUR EMAIL*" required="true">
+						  	</div>
+						  	<div class="form-group">
+						    	<input type="number" class="form-control grey" id="phone" placeholder="YOUR PHONE*" required="true">
+						  	</div>
+						</div>
+						<div class="col-md-6 col-lg-6">
+							<div class="form-group">
+						    	<textarea class="form-control grey" rows="9" placeholder="YOUR MESSAGE*" required="true"></textarea>
+						  	</div>
+						</div>
+				</div>
+				<button type="submit" class="btn btn-warning btn-lg margin-buttom">SEND MESSAGE</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container text-center">
+			<div class="row margin-top margin-buttom">
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<p class="bold">Copyright © Your Website 2016</p>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<a href=""><i class="fa fa-twitter-square   black social-padding-right" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
+							<a href=""><p class="orange bold">Privacy Policy</p></a>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left">
+							<a href=""><p class="orange bold">Terms of Use</p></a>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 </body>
 </html>
